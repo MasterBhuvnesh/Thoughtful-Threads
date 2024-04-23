@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d739e5f.css",
-    "main.js": "/static/js/main.643cc517.js",
-    "index.html": "/index.html",
-    "main.2d739e5f.css.map": "/static/css/main.2d739e5f.css.map",
-    "main.643cc517.js.map": "/static/js/main.643cc517.js.map"
+    "main.css": "/Thoughtful-Threads/static/css/main.2d739e5f.css",
+    "main.js": "/Thoughtful-Threads/static/js/main.643cc517.js",
+    "index.html": "/Thoughtful-Threads/index.html",
+    "main.2d739e5f.css.map": "/Thoughtful-Threads/static/css/main.2d739e5f.css.map",
+    "main.643cc517.js.map": "/Thoughtful-Threads/static/js/main.643cc517.js.map"
   },
   "entrypoints": [
     "static/css/main.2d739e5f.css",
