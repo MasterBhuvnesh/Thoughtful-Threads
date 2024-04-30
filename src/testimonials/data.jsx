@@ -32,6 +32,7 @@ import axios from "axios";
 
 function Data() {
   const [dataSets, setDataSets] = useState([]);
+  axios.defaults.withCredentials = true;
 
   useEffect(() => {
     axios
