@@ -1,11 +1,10 @@
 import "./testimonials.css";
-import Data from "./data";
+import { Data } from "./data";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 const Testimonials = () => {
-  const dataSets = Data();
   return (
     <section className="testimonial container section">
       <h2 className="section_title">Unlocking Wisdom</h2>
@@ -30,14 +29,11 @@ const Testimonials = () => {
         }}
         modules={[Pagination]}
       >
-        {dataSets.map(({ id, author, quote }) => {
+        {Data.map(({ id,author ,quote}) => {
           return (
-            <SwiperSlide
-              className="testimonial_card"
-              key={id}
-            >
+            <SwiperSlide className="testimonial_card" key={id}>
               <h3 className="testimonial_author">{author}</h3>
-              <p className="testimonial_quote">{quote}</p>
+              <p className="testimonial_quote" >{quote}</p>
             </SwiperSlide>
           );
         })}
