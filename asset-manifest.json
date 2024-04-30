@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Thoughtful-Threads/static/css/main.2d739e5f.css",
-    "main.js": "/Thoughtful-Threads/static/js/main.643cc517.js",
+    "main.js": "/Thoughtful-Threads/static/js/main.7193a78e.js",
     "index.html": "/Thoughtful-Threads/index.html",
     "main.2d739e5f.css.map": "/Thoughtful-Threads/static/css/main.2d739e5f.css.map",
-    "main.643cc517.js.map": "/Thoughtful-Threads/static/js/main.643cc517.js.map"
+    "main.7193a78e.js.map": "/Thoughtful-Threads/static/js/main.7193a78e.js.map"
   },
   "entrypoints": [
     "static/css/main.2d739e5f.css",
-    "static/js/main.643cc517.js"
+    "static/js/main.7193a78e.js"
   ]
 }
