@@ -35,7 +35,7 @@ function Data() {
 
   useEffect(() => {
     axios
-      .get("https://qoute-back-server.vercel.app/")
+      .get("https://qoute-back-server.vercel.app")
       .then((response) => {
         // Assuming the API returns an array of data sets
         const { data } = response;
